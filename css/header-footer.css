@@ -1,0 +1,100 @@
+/*
+About page
+*/
+
+/*------------ HEADER ------------------*/
+body {
+	font-size: 14px;
+	min-width: 320px;
+	position: relativ0e;
+	line-height: 1.6;
+	overflow-x: hidden;
+    color: #222;
+}
+ul, li {
+    list-style-type: none;
+}
+nav > li > a {
+    text-shadow: none;
+    color: #fff;
+}
+.hidden{
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    font-weight: normal;
+}
+
+h1 {
+    font-size: em(43);
+}
+h2 {
+    font-size: em(34);
+}
+h3, h4 {
+    text-transform: uppercase;
+    font-size: em(17px);
+    }
+h4{
+    font-size: em(15px);
+}
+.hidden {
+	display: none;
+}
+.logo{
+    display: block;
+    width: 50%;
+}
+.menu-line{
+    padding-top: 40px;
+}
+
+.nav-menu {
+    font-size: em(14);
+    line-height: 1.5;
+}
+.target a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    word-wrap: normal;
+}
+footer {
+    padding-top: 90px;
+    background-color: #272532;
+    color: #ffffff;
+}
+.op-02{
+    opacity: 0.2;
+}
+.f-line {
+    list-style-type: none;
+}
+.m-f{
+    margin-bottom: 50px;
+}
+.active-e{
+    color: #875da6;
+}
+.social{
+    letter-spacing: 20px;;
+    padding-top: 15px;
+}
+.gray{
+    color: #68647b;
+}
+.copyright {
+    background-color: #211f2a;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #6f6e71;
+}
+.btn-subscribe {
+    font-size: 12px;
+    font-family: "";
+    color: #ffffff;
+    background-color: #aa71d0;
+}
+
