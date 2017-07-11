@@ -1,0 +1,25 @@
+body{
+	font-family: 'Hind', sans-serif;
+}
+
+article{
+	max-width: 1590px;
+	margin: 0 auto;
+}
+.head{
+	background: url(../img/About_header.jpg);
+	height: 380px;
+	color: #fff;
+	text-align: center;
+}
+.head h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: normal;
+	font-size: 53px;
+}
+.head p{
+	font-weight: 300;
+	font-size: 22px;
+	max-width: 1050px;
+	margin: 0 auto;
+}
