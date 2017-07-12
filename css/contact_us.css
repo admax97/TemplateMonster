@@ -1,25 +1,147 @@
 body{
 	font-family: 'Hind', sans-serif;
+	margin: 0;
+}
+div, p, input, button {
+	box-sizing: border-box;
 }
 
+a{
+	text-decoration: none;
+	color: inherit;
+}
+ul, h1, h2, h3, p{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+
+.cf:after{
+	content: "";
+	display: table;
+	clear: both;
+}
 article{
 	max-width: 1590px;
 	margin: 0 auto;
 }
 .head{
-	background: url(../img/About_header.jpg);
+	background: url(../img/About_header.jpg) top no-repeat;
+	background-size: cover;
 	height: 380px;
 	color: #fff;
 	text-align: center;
+	position: relative;
+}
+.head_text{
+	position: absolute;
+	top: 50%;
+	margin: -75px auto 0;
+	padding: 0 165px 0;
 }
 .head h2{
 	font-family: 'Playfair Display', serif;
 	font-weight: normal;
 	font-size: 53px;
+	margin-bottom: 12px;
 }
 .head p{
 	font-weight: 300;
 	font-size: 22px;
-	max-width: 1050px;
 	margin: 0 auto;
+	line-height: 1.27
+}
+.map{
+	padding: 135px 15px;
+}
+.b_contacts{
+	margin-bottom: 130px;
+}
+.b_contacts h3{
+	font-family: 'Playfair Display', serif;
+	font-weight: normal;
+	font-size: 42px;
+	letter-spacing: .2;
+	margin-bottom: 20px;
+	text-transform: none;
+}
+.b_contacts article{
+	padding-right: 15px;
+}
+
+.contacts_wrap{
+	float: left;
+	padding-left: 135px;
+}
+.contacts_wrap p{
+	color: #898989;
+	margin-bottom: 0;
+}
+.contacts{
+	margin-bottom: 30px;
+}
+.contacts{
+	font-size: 16px;
+	line-height: 40px;
+}
+.contacts_left{
+	float: left;
+	width: 135px;
+}
+.contacts_right{
+	color: #000;
+	float: left;
+	width: 135px;
+}
+.contacts_right a{
+	color: #aa71d0;
+	line-height: 40px;
+}
+.contacts_right a:hover{
+	color: #000;
+	text-decoration: none;
+}
+.b_contacts .form_wrap{
+	box-sizing: border-box;
+	float: right;
+	width: 49%;
+	height: 563px;
+	background: #f3f5f6;
+	padding: 100px; 
+	height: auto;
+}
+.b_contacts form input, .b_contacts form textarea{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #dddddd;
+	background: transparent;
+	padding: 20px;
+	outline: none;
+	font-size: 16px;
+	color: #635f76;
+	font-family: 'Hind', sans-serif;
+}
+
+.b_contacts form textarea{
+	resize: none;
+	margin-bottom: 20px;
+}
+.b_contacts button{
+	width: 170px;
+	height: 60px;
+	border-radius: 2px;
+	background: #aa71d0;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.b_contacts button:hover{
+	background: transparent;
+	color: #aa71d0;
+	border: 2px solid #aa71d0;
+	cursor: pointer;
 }
