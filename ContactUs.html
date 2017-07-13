@@ -1,43 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/contact_us.css">
 	<link href="https://fonts.googleapis.com/css?family=Hind:300,400,700|Montserrat:300|Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" href="css/header-footer.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
 </head>
 <body>
+	<header class="main-head">
+	    <div class="menu-line clearfix">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-md-2">
+		                <a href="#" class="logo"><img src="img/Logo.png" alt="logo" align="left"></a>
+		                <span align="right"><h4>EVOLUTION</h4></span>
+	                </div>
+	              	<div class="col-md-6"></div>
+	                <div class="col-md-4 right">
+	                   	<nav class="navbar">
+		 					<div class="container">
+		  						<div class="navbar-header">
+		     						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+		      						</button>
+		     					</div>
+		 						<div class="collapse navbar-collapse">
+		    						<div class="nav-menu">
+		      							<ul class="nav navbar-nav">
+		          							<li class="active"><a href="#">About</a></li>
+		        							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
+		       									<ul class="dropdown-menu">
+			            							<li><a href="#">Sample</a></li>
+			            							<li><a href="#">Sample</a></li>
+			            							<li><a href="#">Sample</a></li>
+		          								</ul>
+		        							</li>
+		        							<li><a href="#">Blog</a></li>
+		        							<li><a href="#">Contact us</a></li>
+										</ul>
+		        					</div>
+		    					</div>
+		  					</div>
+						</nav>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</header>
+
 	<div class="head">
 		<article>
-			<h2>Contact our team</h2>
-			<p>Don't hesitate to get in touch with us! We love the challenge of turning your ideas into reality and are always ready to talk through any message.</p>
+			<div class="head_text">
+				<h2>Contact our team</h2>
+				<p>Don't hesitate to get in touch with us! We love the challenge of turning your ideas into reality and are always ready to talk through any message.</p>
+			</div>
 		</article>
 	</div>
 	<div class="map">
 		<article>
-			<img src="img/Map.jpg" alt="Map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d397626.90856549126!2d-77.23501926570646!3d38.86771111239521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b1b888737cef%3A0x1ba942e3d8511dc1!2s6036+Richmond+Hwy%2C+Alexandria%2C+VA+22303!5e0!3m2!1sru!2sus!4v1499849114193" width="100%" height="460" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</article>
 	</div>
-	<div class="b_contacts">
-		<article></article>
-			<div class="contacs">
-				<h3>Contacts</h3>
-				<p>Telephone:<br>Fax:<br>E-mail:<br>E-mail:</p>
-				<p>1.555.329.0632<br>1.555.329.0632</p>
-				<p><a href="">mail@demolink.org</a><br><a href="">Spectrum</a></p>
+	<div class="b_contacts cf">
+		<article>
+			<div class="contacts_wrap">
+				<div class="contacts cf">
+					<h3>Contacts</h3>
+						<div class="contacts_left">
+						<p>Telephone:</p>
+						<p>Fax:</p>
+						<p>E-mail:</p>
+						<p>E-mail:</p>
+					</div>
+					<div class="contacts_right">
+						<p>1.555.329.0632</p>
+						<p>1.555.329.0632</p>
+						<p><a href="">mail@demolink.org</a><br><a href="">Spectrum</a></p>
+					</div>
+				</div>
 				<h3>Address</h3>
-				<p>6036 Richmond hwy., Alexandria, VA 22303</p>
+				<p>6036 Richmond hwy.,<br>Alexandria, VA 22303</p>
 			</div>
-			<div class="form">
-				<form>
-					<input type="text">
-					<input type="e-mail">
-					<input type="text">
-					<button>Submit</button>
-				</form>
+			<div class="form_wrap">
+				<div class="form">
+					<form>
+						<input type="text" placeholder="Name *">
+						<input type="e-mail" placeholder="E-mail *">
+						<textarea placeholder="Message *"></textarea>
+						<button>Submit</button>
+					</form>
+				</div>
 			</div>
 		</article>
 	</div>
+
+	<footer>
+        <div class="container m-f">
+            <div class="row">
+               	<div class="f-line">
+                	<div class="col-md-3">
+                    	<a href="#" class="logo"><img src="img/Logo.png" alt="logo" align="left"></a>
+                    	<span class="text-white" align="left"><h4>EVOLUTION</h4></span>
+                   		<br>
+                    	<p class="gray">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> 
+                    	<div class="social">
+                        	<i class="fa fa-facebook facebook"></i>
+                        	<i class="fa fa-twitter twitter"></i>
+                        	<i class="fa fa-linkedin linkedin"></i>
+                    	</div>
+                	</div>
+                	<div class="col-md-2 target">
+                    	<ul>
+	                        <li class="active-e"><a href="#">About</a></li>
+	                        <li><a href="#">Careers</a></li>
+	                        <li><a href="#">Team</a></li>
+	                        <li><a href="#">Owner Profile</a></li>
+	                        <li><a href="#">Services</a></li>
+	                        <li><a href="#">Blog</a></li>
+	                        <li><a href="#">Contact us</a></li>
+                    	</ul>
+               		</div>
+                	<div class="col-md-2"></div>
+                	<div class="col-md-3 right">
+                    	<h5>Contact Us</h5>
+                    	<span name="email" class="active-e"><i class="fa fa-envelope op-02"></i>    info@demolink.prg</span><br><br>
+                    	<span name="telephone"><i class="fa fa-phone op-02"></i>   (703) 329-06-32</span><br><br>
+                    	<span name="adress"><i class="fa fa-flag op-02"></i>   6036 Richmond hwy.,Alexandria, VA, 22303</span><br><br>
+                	</div>
+                	<div class="col-md-2 right">
+                    	<h5>Sign up for updates</h5>
+                    	<div class="input-group input-group-sm">
+  							<input type="text" class="form-control" placeholder="E-mail">
+						</div>
+        				<br>
+                    	<button type="button" class="btn btn-subscribe">SUBSCRIBE</button>
+                	</div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <p> <span align="left">Copyright &copy; 2018            </span><a href="#">Private policy</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
