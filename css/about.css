@@ -1,6 +1,83 @@
 /*
 About page
 */
+/*--- MENU ---*/
+.draw {
+    transition: color 0.25s;
+
+  &::before,
+  &::after {
+    border: 2px solid transparent;
+    width: 0;
+    height: 0;
+  }
+
+  &::before {
+    top: 0;
+    left: 0;
+  }
+
+  &::after {
+    bottom: 0;
+    right: 0;
+  }
+  
+  &:hover {
+    color: #aa71d0;
+  }
+
+  
+  &:hover::before,
+  &:hover::after {
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover::before {
+    border-top-color: #aa71d0;
+    border-right-color: #aa71d0;
+    transition:
+      width 0.25s ease-out,
+      height 0.25s ease-out 0.25s;
+  }
+
+  &:hover::after {
+    border-bottom-color: #aa71d0; 
+    border-left-color: #aa71d0;
+    transition:
+      border-color 0s ease-out 0.5s, 
+      width 0.25s ease-out 0.5s, 
+      height 0.25s ease-out 0.75s; 
+  }
+}
+
+.meet {
+  
+  &:hover {
+    color: #aa71d0;
+  }
+
+  
+  &::after {
+    top: 0;
+    left: 0;
+  }
+
+  
+  &:hover::before {
+    border-top-color: #aa71d0;
+    border-right-color: #aa71d0;
+  }
+
+  &:hover::after {
+    border-bottom-color: #aa71d0;
+    border-left-color: #aa71d0;
+    transition: 
+      height 0.25s ease-out,
+      width 0.25s ease-out 0.25s;
+  }
+
+}
 
 .navbar.affix {
   top:0;
@@ -68,7 +145,6 @@ nav > li > a {
     z-index: 1;
 }*/
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Hind Regular';
     font-weight: normal;
 }
 
@@ -94,19 +170,30 @@ h4{
     display: block;
     width: 50%;
 }
+.logo-e{
+    padding-top: 7px;
+}
 .logo-e h4{
     display: inline-block;
+    font-family: 'Hind', serif;
+    line-height: 1;
+    letter-spacing: 5;
 }
 .menu-line{
     height: auto;
     padding-top: 15px;
     padding-bottom: 10px;
 }
+.menu-line h4{
+    font-family: 'Hind Regular', sans-serif;
+}
 
 .nav-menu {
-    font-size: em(14);
+    font-family: 'Hind Regular', sans-serif;
+    font-size: 16px;
     line-height: 1.5;
 }
+
 .target a {
     font-size: 14px;
     text-decoration: none;
@@ -116,6 +203,7 @@ h4{
 /* --- END HEADER --- */
 /* --- FOOTER --- */
 footer {
+    font-family: 'Hind', serif;
     padding-top: 90px;
     background-color: #272532;
     color: #ffffff;
@@ -157,7 +245,7 @@ footer a{
 }
 .btn-subscribe {
     font-size: 12px;
-    font-family: "";
+    font-family: 'Hind', serif;
     color: #ffffff;
     background-color: #aa71d0;
 }
@@ -174,23 +262,38 @@ footer a{
     text-align: center;
     color: #ffffff;
 }
+.about-header span{
+    font-size: 48px;
+}
+.about-header span, p{
+    font-family: 'Playfair Display', serif;
+}
 .why {
     background-color: #ffffff;
     height: auto;
     width: 100%;
     padding: 40px;
 }
+.why span{
+    font-family: 'Playfair Display', serif;
+}
 .why p{
     padding: 3%;
 }
+.why h2{
+    font-family: 'Playfair Display', serif;
+}
 .right-block h5{
-    font-size: 15px;
+    font-size: 18px;
     color: #000000;
-    font-family: "Arial";
+    font-family: 'Hind', serif;
 }
 .right-block-l{
     font-size: 12px;
     color: #8b8b8b;
+}
+.right-block-l button{
+    font-family: 'Hind', serif;
 }
 .right-block-r{
     font-size: 12px;
@@ -204,11 +307,11 @@ footer a{
     padding-top: 15%;
 }
 .block-3 span{
-    font-family: "Arial";
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
 }
 .block-3 p{
-    font-family: "Open Sans";
+    font-family: 'Hind', serif;
 }
 .annotations{
     height: auto;
@@ -219,17 +322,22 @@ footer a{
 .annotations p{
     padding: 5px;
     font-size: 20px;
-    font-family: "Italic";
+    font-family: 'Playfair Display', serif;
+}
+.annotations span{
+    font-family: 'Hind', serif;
 }
 .people {
+    margin-left: -5%;
     background-color: #f9fafb;
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 .people img{
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 400px;
-    height: 395px;
+    width: 380px;
+    height: 380px;
 }
 .partners{
     padding-top: 3%;
