@@ -1,3 +1,4 @@
+/*-------Мой хэдер ---------*/
 header{
 	position: relative;
 	z-index: 1;
@@ -43,7 +44,7 @@ nav a{
 	position: relative;
 	color: white;
 	padding-left: 40px;
-	font-size: 10pt;
+	font-size: 12pt;
 	font-family: 'Hind', sans-serif;
 	top:30px;
 	left: 12%;
@@ -52,6 +53,7 @@ nav a:hover,a #icon:hover{
 	color:white;
 	text-decoration: none;
 }
+/*--------------------------------*/
 
 #fblock{
 	width: 100%;
@@ -71,30 +73,30 @@ nav a:hover,a #icon:hover{
 	position: relative;
 	color: white;
 	top:300px;
-	font-size: 24pt;
+	font-size: 36pt;
 	font-weight: 400;
 	line-height: 60px;
 	text-transform:none;
 }
 .cursiv{
 	font-style: italic;
-	font-weight: 700;
+	font-family: 'Playfair Display';
+	font-weight: 600;
 }
 .undertagline{
 	font-family: 'Hind', sans-serif;
 	position: relative;
 	color: white;
 	top:290px;
-	font-size: 10pt;
+	font-size: 14pt;
 	font-weight: 300;
 }
 .lmlink{
 	font-family: 'Hind', sans-serif;
 	position: relative;
-	color: white;
 	top:310px;
 	padding: 0;
-	font-size: 10pt;
+	font-size: 14pt;
 	color: #aa71d0;
 }
 .lmlink::after{
@@ -102,6 +104,7 @@ nav a:hover,a #icon:hover{
 }
 .lmlink:hover{
 	color: #aa71d0;
+	text-decoration:underline;
 }
 .main-head{
 	position: absolute;
@@ -151,14 +154,14 @@ li a:hover{
 .undh{
 	position: relative;
 	top:10px;
-	font-size: 12pt;
+	font-size: 14pt;
 	line-height: 25px;
 	font-family: 'Hind', sans-serif;
 }
 .descriptext{
 	position: relative;
 	top:20px;
-	font-size: 10px;
+	font-size: 12px;
 	text-align: left;
 	font-weight: 300;
 	max-width: 620px; 
@@ -172,6 +175,7 @@ li a:hover{
 	border-radius: 2%;
 	color:white;
 	font-size: 8pt;
+	border: none
 }
 .infobtn:hover{
 	background: white;
@@ -208,15 +212,17 @@ li a:hover{
 	font-family: 'Hind', sans-serif;
 	min-width: 300px;
 	min-height: 150px;
+	margin-bottom: 30px;
 }
 .capabblock{
 	height: 100%;
 	background: #f3f5f6;
 }
+
 article .capabsection{
 	margin: 0 auto;
-	margin-bottom: 50px;
-	margin-top: 20px;
+	margin-bottom: -40px;
+	margin-top: 3px;
 }
 .spriteicon{
 	width: 70px;
@@ -274,12 +280,10 @@ article .capabsection{
 	background-position: -152px -147px;
 }
 .block4{
-	height: 270px;
+	height: 100%px;
 	width: 100%;
 }
-.block4 .wrap{
-	margin-top: 140px;
-}
+	
 .wrap h2{
 	margin: 0 auto;
 	font-size: 28pt;
@@ -287,6 +291,7 @@ article .capabsection{
 	max-width: 550px;
 	font-family: 'Playfair Display';
 	font-weight: 300;
+	margin-top: 80px;
 }
 .wrap h2 span{
 	font-weight: 600;
@@ -312,6 +317,17 @@ article .capabsection{
 	width:150px;
 	margin: 0 auto;
 	margin-top: 30px;
+	margin-bottom: 80px;
+}
+.block5{
+	background: url(../img/Slider_bg.jpg);
+	background-size: cover;
+	background-repeat: repeat-y,repeat-y;
+	background-position: top,bottom;
+	background-attachment: fixed,fixed;
+}
+.carousel-inner{
+	min-height: 300px;
 }
 .carousel-indicators li{
 	position: relative;
@@ -327,12 +343,277 @@ article .capabsection{
 	width: 760px;
 	font-weight: 300;
 	line-height: 25px;
-
 }
+
 .item p{
 	position: relative;
 	top:-80px;
 	color:#555555;
 	font-family: 'Hind', sans-serif;
 	font-size: 10pt;
+}
+.possect{
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.support{
+	text-align: center;50px;
+}
+.support h4{
+	font-family: 'Playfair Display';
+	text-transform:none;
+	padding: 10px 0px 2px 0;
+}
+.support h6,
+.support p{
+	font-family: 'Hind', sans-serif;
+}
+
+.picture1{
+	width: 300px;
+	height: 300px;
+	background: url(../img/Person1.jpg);
+	background-size: cover;
+}
+.picture2{
+	width: 300px;
+	height: 300px;
+	background: url(../img/Person2.jpg);
+	background-size: cover;
+}
+.picture3{
+	width: 300px;
+	height: 300px;
+	background: url(../img/Person3.jpg);
+	background-size: cover;
+}
+.block6 h2{
+	margin-top:100px;
+	font-family: 'Playfair Display';
+	text-align: center;
+	text-transform:none;
+}
+.block6 h2 span{
+	font-weight: 600;
+	font-style: italic;
+}
+.block6 p{
+	padding-top: 5px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+i .fa{
+	text-align: center;
+	margin: 0 auto;
+}
+.block7{
+	background: url(../img/ChildPages_bg.jpg);
+	height: 100%;
+	background-size: cover;
+	color:white;
+	text-align: center;
+}
+.block7 h2{
+	text-transform: none;
+	font-family: 'Playfair Display';
+	padding-bottom: 10px;
+}
+.block7 h6{
+	font-family: 'Playfair Display';
+	font-weight: 300;
+}
+.freemockuppict{
+	background: url(../img/FreeMockup.png);
+	width: 450px;
+	height: 260px;
+	background-size: 100%;
+	margin: 0 auto;
+}
+
+.childblock h4{
+	font-family: 'Playfair Display';
+	font-size: 14pt;
+	text-transform: none;
+	font-weight: 300;
+	padding: 30px 0px 5px 0;
+}
+.childblock p{
+	font-family: 'Hind', sans-serif;
+	font-size: 10pt;
+	padding-bottom: 35px;
+	max-width: 420px;
+	margin: 0 auto;
+}
+.btn-child{
+	width: 250px;
+	height: 50px;
+	background: #aa71d0;
+	border-radius: 2%;
+	color:white;
+	font-size: 8pt;
+	margin-bottom: 20%;
+	border-color: #aa71d0;
+}
+.btn-child:hover{
+ 	background-color: transparent;
+	border-color: #aa71d0;
+	color: #aa71d0;
+	border: 2px solid;
+	transition: 0.2s ease-in;
+}
+.block8{
+	position: relative;
+	top:0;
+	height: 100%;
+}
+.block8 .second-row{
+	margin-top: 110px;
+}
+.second-row div{
+	height: 200px;
+}
+.second-row{
+	width: 80%;
+	margin: 0 auto;
+}
+.clientlogo{
+	width: 120px;
+}
+.wrap2{
+	width: 120px;
+	margin: 0 auto;
+}
+.contactblock{
+	text-align: center;
+	color:white;
+	height: 100%;
+	background: url(../img/Form_bg.jpg);
+	background-repeat: repeat-y,repeat-y;
+	background-position: top,bottom;
+	background-attachment: fixed,fixed;
+}
+.contactblock h2{
+	text-transform: none;
+	font-size: 24pt;
+	padding: 120px 0 10px 0;
+	font-family: 'Playfair Display';
+}
+.contactblock h5{
+	max-width: 500px;
+	margin: 0 auto;
+	line-height: 25px;
+	padding-bottom: 50px;
+	font-size: 12pt;
+	font-family: 'Hind', sans-serif;
+}
+.backform{
+	background: #272532;
+	height: 100%; 
+	margin-bottom: 150px;
+	
+}
+.backform form{
+	width: 60%;
+	margin: 0 auto;
+}
+.group:first-child{
+	margin-top: 100px;
+}
+.group:nth-child(2){
+	margin-top: 25px;
+}
+.group:nth-child(3){
+	margin-top: 35px;
+}
+.group{
+	position: relative;	
+}
+#name, #e-mail, #message{
+	font-size: 12pt;
+	padding: 10px 10px 10px 5px;
+	width: 100%;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #16151d;
+	transition: 0.8s;
+	background-color: transparent;
+	margin: 0 auto;	
+	outline: none;
+	font-family: 'Hind', sans-serif;
+}
+#message{
+	resize: none;
+	height: 100px;
+}
+#massage:focus{
+	font-size: 11pt;
+}
+
+lable{
+	position: absolute;
+	font-weight: normal;
+	pointer-events: none;
+	top:5px;
+	left: 5px;
+	font-size: 12pt;
+	color:white;
+	 transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;	
+	font-family: 'Hind', sans-serif;
+	
+}
+input:focus ~ lable, 
+input:valid ~ lable{
+	top:-20px;
+	font-size: 10pt;
+}
+
+#message:focus ~ lable, 
+ #message:valid ~ lable{
+	top:-20px;
+	font-size: 10pt;
+}
+.backform .btn{
+	width: 150px;
+	height: 50px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	background: #aa71d0;
+	color: white;
+	border-color:#aa71d0 ;
+}
+
+.backform .btn:hover{
+	background-color: transparent;
+	border-color: #aa71d0;
+	color: #aa71d0;
+	border: 2px solid;
+	transition: 0.2s ease-in;
+}
+.block10{
+	height: 100%;
+	text-align: center;
+}
+.block10 h2{
+	padding-top: 80px;
+	font-family: 'Playfair Display';
+	padding-bottom: 20px;
+}
+.block10 p{
+	font-family: 'Hind', sans-serif;
+	max-width: 400px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+.butwrap{
+	margin-bottom: 80px;
+}
+.butwrap button{
+	width: 180px;
+	height: 50px;
+	background: #aa71d0;
+	color: white;
+	border-color:#aa71d0 ;
 }
