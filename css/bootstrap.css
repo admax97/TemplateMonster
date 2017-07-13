@@ -6405,19 +6405,19 @@ button.close {
   display: inline-block;
   width: 10px;
   height: 10px;
-  margin: 1px;
+  margin: 5px;
   text-indent: -999px;
-  border: 1px solid #ffffff;
   border-radius: 10px;
   cursor: pointer;
   background-color: #000 \9;
   background-color: rgba(0, 0, 0, 0);
 }
 .carousel-indicators .active {
-  margin: 0;
+  margin: 4;
   width: 12px;
   height: 12px;
-  background-color: #ffffff;
+  border:2px solid #ffffff;
+  background: none;
 }
 .carousel-caption {
   position: absolute;
