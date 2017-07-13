@@ -29,7 +29,7 @@ article{
 }
 .head{
 	background: url(../img/About_header.jpg) top no-repeat;
-	background-size: cover;
+	background-attachment: fixed, fixed;
 	height: 380px;
 	color: #fff;
 	text-align: center;
@@ -38,7 +38,7 @@ article{
 .head_text{
 	position: absolute;
 	top: 50%;
-	margin: -75px auto 0;
+	margin: -95px auto 0;
 	padding: 0 165px 0;
 }
 .head h2{
@@ -63,7 +63,7 @@ article{
 	font-family: 'Playfair Display', serif;
 	font-weight: normal;
 	font-size: 42px;
-	letter-spacing: .2;
+	letter-spacing: .02em;
 	margin-bottom: 20px;
 	text-transform: none;
 }
@@ -81,8 +81,6 @@ article{
 }
 .contacts{
 	margin-bottom: 30px;
-}
-.contacts{
 	font-size: 16px;
 	line-height: 40px;
 }
@@ -109,7 +107,7 @@ article{
 	width: 49%;
 	height: 563px;
 	background: #f3f5f6;
-	padding: 100px; 
+	padding: 60px 40px; 
 	height: auto;
 }
 .b_contacts form input, .b_contacts form textarea{
@@ -138,10 +136,66 @@ article{
 	color: #fff;
 	font-size: 14px;
 	font-weight: bold;
+	transition: background .3s, color .3s, border .3s;
 }
 .b_contacts button:hover{
 	background: transparent;
 	color: #aa71d0;
 	border: 2px solid #aa71d0;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 860px){
+	.head_text{
+		padding: 0 50px 0;
+	}
+	.head h2{
+		font-size: 40px;
+	}
+	.head p{
+		font-size: 18px;
+	}
+	.b_contacts h3{
+		font-size: 30px;
+	}
+	.contacts{
+		font-size: 15px;
+	}
+	.contacts_wrap{
+		float: none;
+		padding: 0;
+	}
+	.b_contacts .form_wrap{
+		float: none;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.b_contacts article{
+		padding: 0 15px;
+	}
+	.map{
+		padding: 50px 15px 10px;
+	}
+	.b_contacts{
+		margin-bottom: 50px;
+	}
+}
+@media screen and (max-width: 434px){
+	.head h2{
+		font-size: 30px;
+	}
+	.head{
+		height: 300px;
+	}
+	.head_text{
+		margin: -85px auto 0;
+	}
+	.head p{
+		font-size: 17px;
+	}
+	.b_contacts button{
+		width: 100%;
+		height: 50px;
+		font-size: 12px;
+	}
 }
