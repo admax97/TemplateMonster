@@ -17,14 +17,10 @@ header::after {
     display: inline-block;
     width: 100%;
 }
-/*header::after {
-	content: '';
-	display: inline-block;
-	width: 100%;
-}*/
+
 #icon {
-	width: 35px;
-	height:30px;
+	width: 55px;
+	height:48px;
 	background: url(../img/Logo.png);
 	background-size: 102%  100%; 	
 	position: relative;
@@ -34,43 +30,37 @@ header::after {
 }
 .titlesite{
 	position: relative;
-	padding-left: 50px;
+	padding-left: 60px;
 	top:3px;
 }
-/*
-#menu{
-	list-style: none;
-	position: absolute;
-	top:100px;
-	left: 60%;
-	font-size: 14pt;
-	font-family: 'Hind', sans-serif;
-	width: 800px;
+
+a #icon{
+	color: white;
+	text-decoration: none;
 }
-li{
-	display: inline-block;
-	padding-left:10%;
-}
-*/
-a{
+
+nav a{
 	position: relative;
 	color: white;
-	padding-left: 50px;
-	font-size: 12pt;
+	padding-left: 40px;
+	font-size: 10pt;
 	font-family: 'Hind', sans-serif;
 	top:30px;
+	left: 12%;
 }
-a:hover{
+nav a:hover,a #icon:hover{
 	color:white;
+	text-decoration: none;
 }
+
 #fblock{
 	width: 100%;
-	height: 100%;
-	position: absolute;
+	height: 750px;
+	position: relative;
 	z-index: 0;
 	background: url(../img/Main.jpg);
 	background-size: cover;
-	top:0px;
+	top:-150px;
 }
 .wrap{
 	width: 80%;
@@ -80,10 +70,11 @@ a:hover{
 	font-family: 'Playfair Display';
 	position: relative;
 	color: white;
-	top:280px;
-	font-size: 28pt;
+	top:300px;
+	font-size: 24pt;
 	font-weight: 400;
 	line-height: 60px;
+	text-transform:none;
 }
 .cursiv{
 	font-style: italic;
@@ -93,15 +84,15 @@ a:hover{
 	font-family: 'Hind', sans-serif;
 	position: relative;
 	color: white;
-	top:280px;
-	font-size: 12pt;
+	top:290px;
+	font-size: 10pt;
 	font-weight: 300;
 }
 .lmlink{
 	font-family: 'Hind', sans-serif;
 	position: relative;
 	color: white;
-	top:300px;
+	top:310px;
 	padding: 0;
 	font-size: 10pt;
 	color: #aa71d0;
@@ -111,4 +102,173 @@ a:hover{
 }
 .lmlink:hover{
 	color: #aa71d0;
+}
+.main-head{
+	position: absolute;
+	width: 100%;
+	top:732px;
+	box-shadow:0 0 10px rgba(0,0,0,0.5); ;
+}
+.fontevo{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 12px;
+}
+.menu-line{
+	position: relative;
+	top:-33px;
+	color:#2a2a2a; 
+}
+li a{
+	position: relative;
+	top:-5px;
+	color:#2a2a2a;
+}
+li a:hover{
+	color:#2a2a2a;
+}
+#motocms{
+	position: relative;
+	top:160px;
+	height:750px;
+}
+.macpng{
+	background: url(../img/Mac.png);
+	height:398px;
+	width: 97%;
+	background-size: 100%;
+	position: relative;
+	left: 40px;
+}
+.hmotcms{
+	font-family: 'Playfair Display';
+	font-size: 22pt;	
+	text-transform:none;
+}
+.hmotcms span{
+	font-weight: 600;
+	font-style: italic;
+}
+.undh{
+	position: relative;
+	top:10px;
+	font-size: 12pt;
+	line-height: 25px;
+	font-family: 'Hind', sans-serif;
+}
+.descriptext{
+	position: relative;
+	top:20px;
+	font-size: 10px;
+	text-align: left;
+	font-weight: 300;
+	max-width: 620px; 
+}
+.infobtn{
+	position: relative;
+	top:40px;
+	width: 150px;
+	height: 45px;
+	background: #aa71d0;
+	border-radius: 2%;
+	color:white;
+	font-size: 8pt;
+}
+.infobtn:hover{
+	background: white;
+	border-color: #aa71d0;
+	color: #aa71d0;
+	border: 2px solid;
+	transition: 0.2s ease-in;
+}
+.capabilities{
+	height: 100%;
+	background: #f3f5f6;
+}
+.capabh{
+	position: relative;
+	top:80px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Playfair Display';
+	font-size: 24pt;
+	text-transform:none;
+}
+.capabh span{
+	font-weight: 600;
+	font-style: italic;
+}
+.capaundeh{
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top:85px;
+	width: 40%;
+	font-size: 10pt;
+	line-height: 22px;
+	font-family: 'Hind', sans-serif;
+	min-width: 300px;
+	min-height: 300px;
+}
+.capabblock{
+	height: 100%;
+	background: #f3f5f6;
+}
+article .capabsection{
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.spriteicon{
+	width: 70px;
+	height: 70px;
+}
+.capabsection h5{
+	margin: 0 auto;
+	font-size: 12pt;
+	font-family: 'Playfair Display';
+	font-weight: 400;
+	text-align: center;
+	max-width: 200px;
+	padding-top: 30px;
+	padding-bottom: 13px;
+}
+.capabsection p{
+	font-size: 8pt;
+	font-family: 'Hind', sans-serif;
+	max-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	min-height: 100px;
+}
+.spriteicon{
+	margin: 0 auto;
+	background: url(../img/Icons_features.png);
+	background-size: 407%;
+	
+}
+.respicon{
+	background-position: -2px -2px; 
+}
+.fasciicon{
+	background-position: -2px -76px; 
+}
+.seoicon{
+	background-position: 72px -2px;
+}
+.ddeicon{
+	background-position: -70px -2px;
+}
+.paicon{
+	background-position: -77px -77px;
+}
+.bficon {
+	background-position: -151px -75px;
+}
+.pbicon{
+	background-position: -138px -2px;
+}
+.gficon{
+	background-position: -3px 72px;
+}
+.wlicon{
+	background-position: -152px -147px;
 }
