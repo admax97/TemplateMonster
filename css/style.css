@@ -48,51 +48,7 @@ a.spoiler.collapsed:after {
 	left: -19%
 }*/
 
-/* --- Add FONTS --- */
- @font-face {
-    font-family: FontAwesome; /* Имя шрифта */
-    src: url(fonts/FontAwesome.otf); /* Путь к файлу со шрифтом */
-   }
- @font-face {
-    font-family: FontAwesome-webfont-eot; /* Имя шрифта */
-    src: url(fonts/fontawesome-webfont.eot); /* Путь к файлу со шрифтом */
-   }
- @font-face {
-    font-family: FontAwesome-webfont-svg; /* Имя шрифта */
-    src: url(fonts/fontawesome-webfont.svg); /* Путь к файлу со шрифтом */
-   }
- @font-face {
-    font-family: FontAwesome-webfont-ttf; /* Имя шрифта */
-    src: url(fonts/fontawesome-webfont.ttf); /* Путь к файлу со шрифтом */
-   }
- @font-face {
-    font-family: FontAwesome-webfont-woff; /* Имя шрифта */
-    src: url(fonts/fontawesome-webfont.woff); /* Путь к файлу со шрифтом */
-   }
- @font-face {
-    font-family: FontAwesome-webfont-woff2; /* Имя шрифта */
-    src: url(fonts/fontawesome-webfont.woff2); /* Путь к файлу со шрифтом */
-   }
- @font-face {
-    font-family: glyphicons-halflings-regular-eot; /* Имя шрифта */
-    src: url(fonts/glyphicons-halflings-regular.eot); /* Путь к файлу со шрифтом */
-   }
- @font-face {
-    font-family: glyphicons-halflings-regular-svg; /* Имя шрифта */
-    src: url(fonts/glyphicons-halflings-regular.svg); /* Путь к файлу со шрифтом */
-   }
- @font-face {
-    font-family: glyphicons-halflings-regular-ttf; /* Имя шрифта */
-    src: url(fonts/glyphicons-halflings-regular.ttf); /* Путь к файлу со шрифтом */
-   }
- @font-face {
-    font-family: glyphicons-halflings-regular-woff; /* Имя шрифта */
-    src: url(fonts/glyphicons-halflings-regular.woff); /* Путь к файлу со шрифтом */
-   }
- @font-face {
-    font-family: glyphicons-halflings-regular-woff2; /* Имя шрифта */
-    src: url(fonts/glyphicons-halflings-regular.woff2); /* Путь к файлу со шрифтом */
-   }
+
 /* --- COLORS --- */
 .facebook{
     color: #6165fb;
@@ -119,7 +75,7 @@ a.spoiler.collapsed:after {
 }
 * {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Hind', sans-serif;
   font-weight: 300;
 }
 a,
@@ -135,16 +91,31 @@ h1 {
   font-size: 3em;
   text-align: center;
 }
+.outer-top{
+    position: fixed;
+    bottom: 20;
+    right: 13%;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    background-color: #aa71d0;
+}
+.arrow {
+    font-size: 40px;
+    color: #ffffff;
+    padding-left: 16px;
+    padding-top: 8px;
+}
 .outer-menu {
   position: fixed;
-  top: 10vh;
-  left: 0;
+  top: 5; /* 10vh */
+  right: 13%;
   z-index: 1;
 }
 .outer-menu .checkbox-toggle {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 2;
   cursor: pointer;
   width: 60px;
@@ -183,7 +154,7 @@ h1 {
 .outer-menu .hamburger {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 1;
   width: 60px;
   height: 60px;
@@ -214,7 +185,7 @@ h1 {
   position: absolute;
   z-index: 1;
   top: -10px;
-  left: 0;
+  right: 0;
   width: 100%;
   height: 2px;
   background: inherit;
@@ -226,7 +197,7 @@ h1 {
 .outer-menu .menu {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   pointer-events: none;
