@@ -2,83 +2,8 @@
 About page
 */
 /*--- MENU ---*/
-.draw {
-    transition: color 0.25s;
 
-  &::before,
-  &::after {
-    border: 2px solid transparent;
-    width: 0;
-    height: 0;
-  }
-
-  &::before {
-    top: 0;
-    left: 0;
-  }
-
-  &::after {
-    bottom: 0;
-    right: 0;
-  }
-  
-  &:hover {
-    color: #aa71d0;
-  }
-
-  
-  &:hover::before,
-  &:hover::after {
-    width: 100%;
-    height: 100%;
-  }
-
-  &:hover::before {
-    border-top-color: #aa71d0;
-    border-right-color: #aa71d0;
-    transition:
-      width 0.25s ease-out,
-      height 0.25s ease-out 0.25s;
-  }
-
-  &:hover::after {
-    border-bottom-color: #aa71d0; 
-    border-left-color: #aa71d0;
-    transition:
-      border-color 0s ease-out 0.5s, 
-      width 0.25s ease-out 0.5s, 
-      height 0.25s ease-out 0.75s; 
-  }
-}
-
-.meet {
-  
-  &:hover {
-    color: #aa71d0;
-  }
-
-  
-  &::after {
-    top: 0;
-    left: 0;
-  }
-
-  
-  &:hover::before {
-    border-top-color: #aa71d0;
-    border-right-color: #aa71d0;
-  }
-
-  &:hover::after {
-    border-bottom-color: #aa71d0;
-    border-left-color: #aa71d0;
-    transition: 
-      height 0.25s ease-out,
-      width 0.25s ease-out 0.25s;
-  }
-
-}
-
+/*------------*/
 .navbar.affix {
   top:0;
   width:100%;
@@ -187,7 +112,14 @@ h4{
 .menu-line h4{
     font-family: 'Hind Regular', sans-serif;
 }
-
+@media (max-width: 768px){
+.menu-line img {
+    margin-top: 10px;
+}
+    .menu-line h4{
+        padding-top: 20px;
+    }
+}
 .nav-menu {
     font-family: 'Hind Regular', sans-serif;
     font-size: 16px;
@@ -276,6 +208,7 @@ footer a{
 }
 .why span{
     font-family: 'Playfair Display', serif;
+    font-size: 32px;
 }
 .why p{
     padding: 3%;

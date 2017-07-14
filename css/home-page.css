@@ -117,8 +117,9 @@ nav a:hover,a #icon:hover{
 	box-shadow:0 0 10px rgba(0,0,0,0.5); ;
 }
 .fontevo{
-	font-family: 'Montserrat', sans-serif;
-	margin-top: 12px;
+    font-size: 24px;
+	font-family: 'Hind', sans-serif;
+	padding-top: 1px;
 }
 .menu-line{
 	position: relative;
@@ -646,7 +647,7 @@ input:valid ~ lable{
   position: -o-sticky;
   position: sticky;
   top: 0px;
-    z-index: 999;
+    z-index: 99;
 }
 @media screen and (max-width:1300px){
 
