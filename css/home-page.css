@@ -8,7 +8,7 @@ header{
     padding: 2em 10%;
     color: #fff;
 	
-}
+}/*
 header #icon,
 header nav {
     display: inline-block;
@@ -52,7 +52,7 @@ nav a{
 nav a:hover,a #icon:hover{
 	color:white;
 	text-decoration: none;
-}
+}*/
 /*--------------------------------*/
 
 #fblock{
@@ -637,6 +637,16 @@ input:valid ~ lable{
 	background: #aa71d0;
 	color: white;
 	border-color:#aa71d0 ;
+}
+.sidebar.fixed { position:fixed; right:50%; margin-right:-50%; background-color: #ffffff; }
+.sticky {
+   position: -webkit-sticky;
+    position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0px;
+    z-index: 999;
 }
 @media screen and (max-width:1300px){
 
