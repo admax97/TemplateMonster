@@ -96,16 +96,20 @@
     </header>
  <div class = "container-fluid">
    <div class="row" id = "motocms">
-   	<div class=" col-lg-offset-1 col-lg-4">
-  		<article>
+   	<div class=" col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5">
+  		<article class = "mcmswrap">
    			<h3 class="hmotcms">Why You Should Use <span>MotoCMS?</span></h3>
    			<h5 class = "undh">Evolution is the best t heme for your business<br> website on MotoCMS</h5>
    			<p class = "descriptext">This fascinating web design is a perfect way for your business to find itself online. With MotoCMS you will be able to launch your website just within a few steps and customize your template anytime without leaving your web browser. </p>
+   			<div class = "btwrap">
    			<button class = "infobtn btn btn-default">MORE ABOUT US</button>
+   			</div>
    		</article>
   	</div>
-   	<div class="col-lg-6">
-   		<div class = "macpng"></div>
+   	<div class="col-lg-5 col-md-5 hiddenblock">
+   		<div>
+   		<img class = "macpng" src="img/Mac.png" alt="">
+   		</div>
    	</div>
    </div>
 	</div>
@@ -322,18 +326,21 @@ content of a page when looking at its layout.</h5>
 			<div class= "col-lg-offset-3 col-lg-6 col-xs-offset-3 col-xs-6 backform">
 			<form action="">
 				<div class = "group">
-					<input id = "name" type="text" required>
+					<input onblur="hiddenfild1()" id = "name" type="text" required>
 					<span class = "bar"></span>
+					<span class = "hidfield hn">Fild a required</span>
 					<lable for="name">Name*</lable>
 				</div>
 				<div class = "group">
-					<input id = "e-mail" type="text" required>
+					<input onblur="hiddenfild2()" id = "e-mail" type="text" required>
 					<span class="bar"></span>
+					<span class = "hidfield he">Fild a required</span>
 					<lable for="e-mail">E-mail*</lable>
 				</div>
 				<div class="group">
-					<textarea name="" id="message" cols="30" rows="10" required></textarea>
+					<textarea onblur="hiddenfild3()" name="" id="message" cols="30" rows="10" required></textarea>
 					<span class="bar"></span>
+					<span class = "hidfield hm">Fild a required</span>
 					<lable for="message">Message*</lable>
 				</div>
 				<button class = "btn btn-default">SUBMIT</button>
@@ -365,5 +372,6 @@ or to hear your new startup idea.</p>
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
