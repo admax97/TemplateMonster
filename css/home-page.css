@@ -346,6 +346,11 @@ article .capabsection{
 	top:-30px;
 	background: #555555;
 	z-index: 1;
+	border: none;
+}
+.carousel-indicators .active{
+	background-color: transparent;
+	border: 2px solid white;
 }
 .item h3 {
 	font-family: 'Playfair Display';
