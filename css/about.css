@@ -3,11 +3,11 @@ About page
 */
 /*--- MENU ---*/
 
-/*------------*/
+/*------------
 .navbar.affix {
   top:0;
   width:100%;
-}
+}*/
 /*--- @MEDIA --- */
 nav select {
   display: none;
@@ -27,7 +27,6 @@ nav select {
         display: hidden;
     }
     .people img{
-        width: 50%;
         height: 50%;
 }
     .f-line{
@@ -42,9 +41,15 @@ nav select {
         position: relative;
     }
 }
+@media (min-width: 768px){
+    body{
+        font-size: 8px;
+    }
+}
 
 /*------------ HEADER ------------------*/
 body {
+    width: 100%;
 	font-size: 14px;
 	min-width: 320px;
 	position: relative;
@@ -222,6 +227,7 @@ footer a{
     font-family: 'Hind', serif;
 }
 .right-block-l{
+    margin-left: -25px;
     font-size: 12px;
     color: #8b8b8b;
 }
@@ -229,6 +235,7 @@ footer a{
     font-family: 'Hind', serif;
 }
 .right-block-r{
+    margin-left: -25px;
     font-size: 12px;
     color: #8b8b8b;
 }
@@ -253,7 +260,7 @@ footer a{
     bottom: auto;
 }
 .annotations p{
-    padding: 5px;
+    padding: 1px;
     font-size: 20px;
     font-family: 'Playfair Display', serif;
 }
@@ -261,7 +268,8 @@ footer a{
     font-family: 'Hind', serif;
 }
 .people {
-    margin-left: -5%;
+    width: 100%;
+    padding-left: 0;
     background-color: #f9fafb;
     padding-left: 0;
     padding-right: 0;
@@ -276,7 +284,6 @@ footer a{
     padding-top: 3%;
     padding-bottom: 3%;
     height: auto;
-    width: 100%;
     background-color: #ffffff;
 }
 .partners img{
