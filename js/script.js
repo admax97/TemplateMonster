@@ -1,10 +1,8 @@
 function hiddenfield1(){
-	var n = $("#name").val()
-	
+	var n = $("#name").val()	
 	if (n.charAt()==0){
 		$(".hn").css("opacity","1")
 	}
-	
 	
 }
 function hiddenfield2(){
