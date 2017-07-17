@@ -203,7 +203,7 @@ footer a{
 .about-header span{
     font-size: 48px;
 }
-.about-header span, p{
+.about-header span, .about-header p{
     font-family: 'Playfair Display', serif;
 }
 .why {

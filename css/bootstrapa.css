@@ -3995,12 +3995,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:focus {
   text-decoration: none;
     /*-------------- animation main-menu ------------*/
-    background-color: #000;
-  visibility: hidden;
-  -webkit-transform: scaleY(1);
-  transform: scaleY(0);
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  border: 1px solid #000000;
+    line-height: 1;
+    
 }
 .nav > li.disabled > a {
   color: #999999;
