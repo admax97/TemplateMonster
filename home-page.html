@@ -32,12 +32,12 @@
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-<div class="col-md-4">
+<div class="col-lg-4 col-md-3 col-sm-4 col-xs-10">
     <a href="#" class="logo"><img src="img/Logo.png" alt="logo" align="left"></a>
                    	 <span align="left"><h4 class = "fontevo">EVOLUTION</h4></span>
     </div>
-                   	 <div class="col-md-4"></div>
-	<nav class="col-md-4 offset" align="right">
+                   	 <div class="col-lg-3 col-md-3 col-sm-0 col-xs-0"></div>
+	<nav class="col-lg-4 col-md-4 col-sm-2 offset" align="right">
         
        <nav class="navbar">
  
@@ -128,9 +128,16 @@
               
                <div class="row">
                   <div class="col-md-12 center-b">
-                   <div class="col-md-4">
+                   <div class="col-lg-4 col-md-3 col-sm-4 col-xs-10 ">
                    	 <a href="#" class="logo"><img src="img/Logo.png" alt="logo" align="left"></a>
                    	 <span align="left"><h4 class = "fontevo">EVOLUTION</h4></span>
+                   	  </div>
+                    
+                   	 <div class="col-lg-3 col-md-3 <col-sm-0></col-sm-0> col-xs-0 offset">
+                   	     
+                   	 </div>
+                    
+                   	 <div class="col-md-3 col-sm-4 col-lg-2 right">
                    	 
                    	  <!--- HAMBERGER #2 --->
     <div class="outer-menu">
@@ -158,13 +165,7 @@
   </div>
 </div>           
                    	 
-                   	 </div>
-                    
-                   	 <div class="col-md-4">
-                   	     
-                   	 </div>
-                    
-                   	 <div class="col-md-4" align="right">
+                   	
                        
 <nav class="navbar">
  
@@ -228,7 +229,7 @@
    			<h5 class = "undh">Evolution is the best t heme for your business<br> website on MotoCMS</h5>
    			<p class = "descriptext">This fascinating web design is a perfect way for your business to find itself online. With MotoCMS you will be able to launch your website just within a few steps and customize your template anytime without leaving your web browser. </p>
    			<div class = "btwrap">
-   			<button class = "infobtn btn btn-default">MORE ABOUT US</button>
+   			<button class = "infobtn ">MORE ABOUT US</button>
    			</div>
    		</article>
   	</div>
@@ -308,7 +309,7 @@
     <div class="block4 ">
     	<div class = "wrap ">
     		<h2>Set your own time of <span>phone call </span>and we'll <span>call you back.</span></h2>
-			<div class="posbut"><button class="btn btn-default">GET CALLBACK</button></div>
+			<div class="posbut"><button class="getbtn">GET CALLBACK</button></div>
     	</div>
     </div>
     
@@ -409,14 +410,14 @@ I uploaded them fast. No problem. The website builder is user-friendly. ”</h3>
 				<div class = "freemockuppict"></div>
 				<h4>Evolution Restaurant Page</h4>
 				<p>Need a website for a cafe or restaurant? Choose this beautiful template with a high level of functionality.</p>
-				<button class="btn-child btn btn-default">VIEW RESTAURANT PAGE</button>
+				<button class="btn-child">VIEW RESTAURANT PAGE</button>
 			</div>
 			<div class="col-lg-5 childblock">
 				<div class = "freemockuppict"></div>
 				<h4>Evolution Consulting Page</h4>
 				<p>Promote your consulting agency with this extremely wonderful 
 and fast website template. </p>
-				<button class="btn-child btn btn-default">VIEW RESTAURANT PAGE</button>
+				<button class="btn-child">VIEW RESTAURANT PAGE</button>
 		</div>
 	</div>
 	</div>
@@ -449,27 +450,27 @@ and fast website template. </p>
 	<h5>It is a long established fact that a reader will be distracted by the readable 
 content of a page when looking at its layout.</h5>
 		<div class="row">
-			<div class= "col-lg-offset-3 col-lg-6 col-xs-offset-3 col-xs-6 backform">
+			<div class= "col-lg-offset-3 col-lg-6 col-xs-offset-2 col-xs-8  backform">
 			<form action="">
 				<div class = "group">
-					<input onblur="hiddenfeild1()" id = "name" type="text" required>
+					<input onblur="hiddenfield1()" id = "name" type="text" required>
 					<span class = "bar"></span>
-					<span class = "hidfield hn">Fild a required</span>
+					<span class = "hidfield hn">Fild is required</span>
 					<lable for="name">Name*</lable>
 				</div>
 				<div class = "group">
-					<input onblur="hiddenfeild2()" id = "e-mail" type="text" required>
+					<input onblur="hiddenfield2()" id = "e-mail" type="text" required>
 					<span class="bar"></span>
-					<span class = "hidfield he">Fild a required</span>
+					<span class = "hidfield he">Fild is required</span>
 					<lable for="e-mail">E-mail*</lable>
 				</div>
 				<div class="group">
-					<textarea onblur="hiddenfild3()" name="" id="message" cols="30" rows="10" required></textarea>
+					<textarea onblur="hiddenfield3()" name="" id="message" cols="30" rows="10" required></textarea>
 					<span class="bar"></span>
-					<span class = "hidfield hm">Fild a required</span>
+					<span class = "hidfield hm">Fild is required</span>
 					<lable for="message">Message*</lable>
 				</div>
-				<button class = "btn btn-default">SUBMIT</button>
+				<button class = "submitbut">SUBMIT</button>
 			</form>	
 			</div>
 		</div>
@@ -552,8 +553,23 @@ or to hear your new startup idea.</p>
           
     </footer>
     <!-- End write code's -->
-    <script src='http://code.jquery.com/jquery-1.9.1.js'></script>
-<script>
+
+ <div class="hidden"></div>
+ 
+
+ <!--[if lt IE 9]>
+ <script src="libs/html5shiv/es5-shim.min.js"></script>
+ <script src="libs/html5shiv/html5shiv.min.js"></script>
+ <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+ <script src="libs/respond/respond.min.js"></script>
+ <![endif]-->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+	<script>
 $(window).load(function(){
 $window = $(window),
 $sidebar = $(".sidebar"),
@@ -567,19 +583,5 @@ $window.scroll(function(event) {
 });
 });
 </script>
- <div class="hidden"></div>
- 
-
- <!--[if lt IE 9]>
- <script src="libs/html5shiv/es5-shim.min.js"></script>
- <script src="libs/html5shiv/html5shiv.min.js"></script>
- <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
- <script src="libs/respond/respond.min.js"></script>
- <![endif]-->
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
- <script src="js/jquery-1.11.3.min.js"></script>
- <!-- Include all compiled plugins (below), or include individual files as needed -->
- <script src="js/bootstrap.js"></script>
-	<script src="js/script.js"></script>
 </body>
 </html>

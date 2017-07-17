@@ -7,8 +7,11 @@ header{
     height: 8em;
     padding: 2em 10%;
     color: #fff;
+	z-index: 100;
 	
-}/*
+}
+
+/*
 header #icon,
 header nav {
     display: inline-block;
@@ -305,7 +308,7 @@ article .capabsection{
 	font-weight: 600;
 	font-style: italic;
 }
-.wrap .btn{
+.wrap .getbtn{
 	margin: 0 auto;
 	width: 150px;
 	height: 45px;
@@ -313,8 +316,9 @@ article .capabsection{
 	border-radius: 2%;
 	color:white;
 	font-size: 8pt;
+	border: none;
 }
-.wrap .btn:hover{
+.wrap .getbtn:hover{
 	background: white;
 	border-color: #aa71d0;
 	color: #aa71d0;
@@ -341,6 +345,7 @@ article .capabsection{
 	position: relative;
 	top:-30px;
 	background: #555555;
+	z-index: 1;
 }
 .item h3 {
 	font-family: 'Playfair Display';
@@ -465,6 +470,7 @@ i .fa{
 	margin-bottom: 20%;
 	border-color: #aa71d0;
 	font-family: 'Hind', sans-serif;
+	border:none;
 }
 .btn-child:hover{
  	background-color: transparent;
@@ -597,7 +603,7 @@ input:valid ~ lable{
 	top:-20px;
 	font-size: 10pt;
 }
-.backform .btn{
+.backform .submitbut{
 	width: 150px;
 	height: 50px;
 	margin-top: 50px;
@@ -605,9 +611,10 @@ input:valid ~ lable{
 	background: #aa71d0;
 	color: white;
 	border-color:#aa71d0 ;
+	border: none;
 }
 
-.backform .btn:hover{
+.backform .submitbut:hover{
 	background-color: transparent;
 	border-color: #aa71d0;
 	color: #aa71d0;
